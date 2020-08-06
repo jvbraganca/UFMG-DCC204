@@ -17,7 +17,7 @@ int main(int argc, char** argv)
     std::cout << "Insira a altura maxima da piramide: ";
     if (argc)
     {
-        height = std::stoi(argv[0]);
+        height = std::atoi(argv[1]);
     } else
     {
         std::cin >> height;
