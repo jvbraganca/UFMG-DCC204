@@ -7,7 +7,7 @@ void printer(int size)
     std::cout << std::string(size, star) << std::endl;
 }
 
-// CI Testing
+// Travis CI
 int main()
 {
     int height;
