@@ -8,14 +8,22 @@ void printer(int size)
 }
 
 // Travis CI
-int main()
+int main(int argc, char** argv)
 {
     int height;
     int printValue = 1;
     bool hasReachedMaxHeight = false;
 
     std::cout << "Insira a altura maxima da piramide: ";
-    std::cin >> height;
+    if (argc)
+    {
+        height = (int)argv[0];
+    } else
+    {
+        std::cin >> height;
+    }
+    
+    
 
 
     for (int i = 0; i < ((height*2)-1); i++)
