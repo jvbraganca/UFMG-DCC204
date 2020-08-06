@@ -1,4 +1,4 @@
-#include <cle>
+#include <iostream>
 #include <string>
 
 void printer(int size)
@@ -7,6 +7,7 @@ void printer(int size)
     std::cout << std::string(size, star) << std::endl;
 }
 
+// CI Testing
 int main()
 {
     int height;
