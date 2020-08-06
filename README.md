@@ -1,2 +1,2 @@
 # UFMG-DCC204
-![C/C++ CI](https://github.com/jvbraganca/UFMG-DCC204/workflows/C/C++%20CI/badge.svg?branch=master)
+[![Build Status](https://travis-ci.org/jvbraganca/UFMG-DCC204.svg?branch=master)](https://travis-ci.org/jvbraganca/UFMG-DCC204)
