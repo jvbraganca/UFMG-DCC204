@@ -21,9 +21,8 @@ int main(int argc, char** argv)
     } else
     {
         std::cin >> height;
-        std::cout << std::endl;
     }
-    
+    std::cout << std::endl;
     for (int i = 0; i < ((height*2)-1); i++)
     {
         if (printValue < height && !hasReachedMaxHeight)
