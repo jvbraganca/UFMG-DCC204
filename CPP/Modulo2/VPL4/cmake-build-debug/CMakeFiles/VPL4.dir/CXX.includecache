@@ -6,27 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/joao/CLionProjects/UFMG-DCC204/CPP/Modulo2/VPL4/AbstractStream.hpp
+D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL4/AbstractStream.hpp
 string
 -
 
-/home/joao/CLionProjects/UFMG-DCC204/CPP/Modulo2/VPL4/NumberDecorator.cpp
+D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL4/CommaDecorator.cpp
 sstream
 -
 vector
 -
-regex
--
-iostream
--
-NumberDecorator.hpp
-/home/joao/CLionProjects/UFMG-DCC204/CPP/Modulo2/VPL4/NumberDecorator.hpp
+CommaDecorator.hpp
+D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL4/CommaDecorator.hpp
 
-/home/joao/CLionProjects/UFMG-DCC204/CPP/Modulo2/VPL4/NumberDecorator.hpp
+D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL4/CommaDecorator.hpp
 StreamDecorator.hpp
-/home/joao/CLionProjects/UFMG-DCC204/CPP/Modulo2/VPL4/StreamDecorator.hpp
+D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL4/StreamDecorator.hpp
 
-/home/joao/CLionProjects/UFMG-DCC204/CPP/Modulo2/VPL4/StreamDecorator.hpp
+D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL4/StreamDecorator.hpp
 AbstractStream.hpp
-/home/joao/CLionProjects/UFMG-DCC204/CPP/Modulo2/VPL4/AbstractStream.hpp
+D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL4/AbstractStream.hpp
 

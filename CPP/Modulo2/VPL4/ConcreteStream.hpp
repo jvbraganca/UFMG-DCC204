@@ -15,7 +15,7 @@ public:
    * encapsula
    * \param stream: a string que será representada por este objeto.
    */
-  explicit ConcreteStream(const std::string stream): _stream(stream) {}
+  ConcreteStream(const std::string stream): _stream(stream) {}
 
   /**
    * \simplesmente retorna a string interna. Sem modificações.

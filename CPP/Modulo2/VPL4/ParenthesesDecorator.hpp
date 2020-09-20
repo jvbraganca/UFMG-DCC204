@@ -16,12 +16,12 @@ public:
    * para o decorador de base.
    * \param o objeto que deve ser decorado.
    */
-  explicit ParenthesesDecorator(AbstractStream* streamObj): StreamDecorator(streamObj) {}
+  ParenthesesDecorator(AbstractStream* streamObj): StreamDecorator(streamObj) {}
 
   /**
    * \O destruidor é o destruidor padrão produzido pelo compilador.
    */
-  ~ParenthesesDecorator() override = default;
+  ~ParenthesesDecorator() {};
 
   /**
    * \Este método decorado envolve o fluxo entre parênteses.

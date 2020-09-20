@@ -14,12 +14,12 @@ public:
    * deste objeto.
    * \param o objeto que deve ser decorado.
    */
-  explicit StreamDecorator(AbstractStream* streamObj): _streamObj(streamObj) {}
+  StreamDecorator(AbstractStream* streamObj): _streamObj(streamObj) {}
 
   /**
    * \O destruidor é o destruidor padrão produzido pelo compilador.
    */
-  ~StreamDecorator() override = default;
+  ~StreamDecorator() {};
 
   /**
    * \Este é o método que terá que ser sobrescrito por qualquer decorador que

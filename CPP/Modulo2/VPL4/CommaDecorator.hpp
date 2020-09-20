@@ -18,12 +18,12 @@ public:
    * o decorador de base.
    * \param o objeto que deve ser decorado.
    */
-  explicit CommaDecorator(AbstractStream* streamObj): StreamDecorator(streamObj) {}
+  CommaDecorator(AbstractStream* streamObj): StreamDecorator(streamObj) {}
 
   /**
    * \O destruidor é o destruidor padrão produzido pelo compilador.
    */
-  ~CommaDecorator() override = default;
+  ~CommaDecorator() {};
 
   /**
    * \Este método decorado adiciona a vírgula entre os tokens do fluxo.

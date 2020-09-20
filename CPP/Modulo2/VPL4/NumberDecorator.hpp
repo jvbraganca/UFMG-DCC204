@@ -16,12 +16,12 @@ public:
    * \O construtor, que envia o objeto que será decorado, ou seja, o fluxo, para
    * o decorador de base. param o objeto que deve ser decorado.
    */
-  explicit NumberDecorator(AbstractStream* streamObj): StreamDecorator(streamObj) {}
+  NumberDecorator(AbstractStream* streamObj): StreamDecorator(streamObj) {}
 
   /**
    * \O destruidor é o destruidor padrão produzido pelo compilador.
    */
-  ~NumberDecorator() override = default;
+  ~NumberDecorator() {};
 
   /**
    * \Este método decorado adiciona o sinal '+' na frente dos inteiros. retornar

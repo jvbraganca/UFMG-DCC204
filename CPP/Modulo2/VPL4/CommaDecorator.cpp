@@ -1,26 +1,28 @@
 #include <sstream>
 #include <vector>
-#include <regex>
+
 #include "CommaDecorator.hpp"
 
 std::string CommaDecorator::toString() {
+    std::stringstream ss(StreamDecorator::toString());
+    std::string intermediate;
     std::vector<std::string> tokens;
     std::string tokenized;
-    std::smatch result;
-    std::regex re(R"(?<=\s|^)\d+(?=\s|$)");
-    std::stringstream check1(StreamDecorator::toString());
-    std::string intermediate;
 
-
-    while (getline(check1, intermediate, ' '))
-    {
+    while (getline(ss, intermediate, ' ')) {
         tokens.push_back(intermediate);
     }
     tokenized = "";
+
     for (int i = 0; i < tokens.size(); ++i) {
-        tokenized += tokens[i] + " , ";
+        if ( tokens[i] != ")" ) {
+            tokenized += tokens[i] + " , ";
+        } else if (tokens[i] == "(") {
+            tokenized += tokens[i];
+        } else {
+            tokenized += tokens[i];
+        }
     }
 
     return tokenized;
 }
-

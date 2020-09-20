@@ -1,29 +1,28 @@
 #include <sstream>
 #include <vector>
-#include <regex>
+#include "regex"
+#include <iostream>
+
 #include "NumberDecorator.hpp"
 
-
 std::string NumberDecorator::toString() {
+    std::stringstream ss(StreamDecorator::toString());
+    std::string temp;
     std::vector<std::string> tokens;
     std::string tokenized;
+    std::regex pattern("^\\d+$");
     std::smatch result;
-    std::stringstream check1(StreamDecorator::toString());
-    std::string intermediate;
 
-    while (getline(check1, intermediate, ' '))
-    {
-        tokens.push_back(intermediate);
+    while (getline(ss, temp, ' ')) {
+        tokens.push_back(temp);
     }
-    tokenized = "";
+
     for (int i = 0; i < tokens.size(); ++i) {
-        if (std::regex_search(tokens[i], result, std::regex("^\\d+$"))) {
-            tokenized = " +" + tokens[i];
+        if (std::regex_search(tokens[i], result, pattern)) {
+            tokenized += " +" + tokens[i];
         } else {
-            tokenized += tokens[i] + " , ";
+            tokenized += " " + tokens[i];
         }
     }
-
     return tokenized;
 }
-

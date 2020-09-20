@@ -1,1 +1,3 @@
-/usr/bin/c++  -g   CMakeFiles/VPL4.dir/CommaDecorator.cpp.o CMakeFiles/VPL4.dir/main.cpp.o CMakeFiles/VPL4.dir/NumberDecorator.cpp.o CMakeFiles/VPL4.dir/ParenthesesDecorator.cpp.o  -o VPL4 
+"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\VPL4.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\VPL4.dir/objects.a @CMakeFiles\VPL4.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\VPL4.dir/objects.a -Wl,--no-whole-archive  -o VPL4.exe -Wl,--out-implib,libVPL4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\VPL4.dir\linklibs.rsp
