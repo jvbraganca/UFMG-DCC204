@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL1/Word.cpp
-Word.hpp
-D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL1/Word.hpp
-
 D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL1/Word.hpp
 string
 -
@@ -19,6 +15,10 @@ WordCounter.hpp
 D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL1/WordCounter.hpp
 Word.hpp
 D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL1/Word.hpp
+algorithm
+-
+map
+-
 
 D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL1/WordCounter.hpp
 map
@@ -31,10 +31,4 @@ string
 -
 Word.hpp
 D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL1/Word.hpp
-
-D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL1/main.cpp
-iostream
--
-WordCounter.hpp
-D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL1/WordCounter.hpp
 

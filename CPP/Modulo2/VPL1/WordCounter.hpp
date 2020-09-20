@@ -15,6 +15,7 @@ public:
 
 	Word *words;
 	int size = 0;
+	vector<string> sortedList;
 
 	WordCounter(int num_words);
 	~WordCounter();

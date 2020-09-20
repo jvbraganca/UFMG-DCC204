@@ -11,7 +11,6 @@ public:
 
 	string word;
 	int count;
-
 	Word ();
 	void incrementFreq ();
 };
