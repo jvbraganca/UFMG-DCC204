@@ -1,12 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/VPL4.dir/CommaDecorator.cpp.obj"
-  "CMakeFiles/VPL4.dir/NumberDecorator.cpp.obj"
-  "CMakeFiles/VPL4.dir/ParenthesesDecorator.cpp.obj"
-  "CMakeFiles/VPL4.dir/main.cpp.obj"
-  "VPL4.exe"
-  "VPL4.exe.manifest"
+  "CMakeFiles/VPL4.dir/CommaDecorator.cpp.o"
+  "CMakeFiles/VPL4.dir/NumberDecorator.cpp.o"
+  "CMakeFiles/VPL4.dir/ParenthesesDecorator.cpp.o"
+  "CMakeFiles/VPL4.dir/main.cpp.o"
+  "VPL4"
   "VPL4.pdb"
-  "libVPL4.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
