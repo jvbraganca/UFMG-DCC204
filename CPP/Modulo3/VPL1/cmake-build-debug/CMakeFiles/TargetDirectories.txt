@@ -1,0 +1,3 @@
+D:/UFMG/UFMG-DCC204/CPP/Modulo3/VPL1/cmake-build-debug/CMakeFiles/VPL1.dir
+D:/UFMG/UFMG-DCC204/CPP/Modulo3/VPL1/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/UFMG/UFMG-DCC204/CPP/Modulo3/VPL1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

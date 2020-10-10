@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL4-2/CommaDecorator.cpp" "D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL4-2/cmake-build-debug/CMakeFiles/VPL4_2.dir/CommaDecorator.cpp.obj"
-  "D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL4-2/NumberDecorator.cpp" "D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL4-2/cmake-build-debug/CMakeFiles/VPL4_2.dir/NumberDecorator.cpp.obj"
-  "D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL4-2/ParenthesesDecorator.cpp" "D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL4-2/cmake-build-debug/CMakeFiles/VPL4_2.dir/ParenthesesDecorator.cpp.obj"
-  "D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL4-2/main.cpp" "D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL4-2/cmake-build-debug/CMakeFiles/VPL4_2.dir/main.cpp.obj"
+  "D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL4/CommaDecorator.cpp" "D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL4/cmake-build-debug/CMakeFiles/VPL4_2.dir/CommaDecorator.cpp.obj"
+  "D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL4/NumberDecorator.cpp" "D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL4/cmake-build-debug/CMakeFiles/VPL4_2.dir/NumberDecorator.cpp.obj"
+  "D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL4/ParenthesesDecorator.cpp" "D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL4/cmake-build-debug/CMakeFiles/VPL4_2.dir/ParenthesesDecorator.cpp.obj"
+  "D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL4/main.cpp" "D:/UFMG/UFMG-DCC204/CPP/Modulo2/VPL4/cmake-build-debug/CMakeFiles/VPL4_2.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
