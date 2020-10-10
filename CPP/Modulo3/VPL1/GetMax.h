@@ -37,7 +37,6 @@ struct BitSet {
      * former does not contain the first element, which is in the latter.
      * \return true if bit_set1 is greater than bit_set2
      */
-    // TODO: implement this operator.
     bool operator >= (const BitSet& i1 ) const
     {
         return _set >= i1._set;
