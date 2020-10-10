@@ -76,16 +76,9 @@ struct Interval {
  */
 template <class T>
 T GetMaxDefault (T a, T b, T dflt) {
-    if (a >= b)
-    {
-        return a;
-    } else if (b >= a)
-    {
-        return b;
-    } else
-    {
-        return dflt;
-    }
+    if (a >= b) return a;
+    else if (b >= a) return b;
+    else return dflt;
 }
 
 #endif
