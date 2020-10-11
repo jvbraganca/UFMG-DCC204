@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/UFMG/UFMG-DCC204/CPP/Modulo3/VPL2/Point.cpp
+iostream
+-
+Point.h
+D:/UFMG/UFMG-DCC204/CPP/Modulo3/VPL2/Point.h
+
+D:/UFMG/UFMG-DCC204/CPP/Modulo3/VPL2/Point.h
+
